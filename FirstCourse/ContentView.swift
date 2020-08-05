@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var show = false
+    @State var viewState = CGSize.zero
     var body: some View {
         ZStack {
             TitleView()
@@ -37,16 +38,22 @@ struct ContentView: View {
                 .blendMode(.hardLight)
                 .animation(.easeOut(duration: 0.3))
             CardView()
+                .offset(x: viewState.width, y: viewState.height)
                 .blendMode(.hardLight)
                 .onTapGesture {
                     self.show.toggle()
                 }
+                .gesture(
+                    DragGesture().onChanged { value in
+                        self.viewState = value.translation
+                    }
+                )
             BottomCardView()
                 .blur(radius: show ? 20 : 0)
                 .animation(.default)
         }
     }
-} 
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
