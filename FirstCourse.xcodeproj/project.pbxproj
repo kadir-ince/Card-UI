@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5438B87D24DC74CD0093193D /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438B87C24DC74CD0093193D /* UpdateList.swift */; };
+		5438B87F24DC792F0093193D /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438B87E24DC792F0093193D /* UpdateDetail.swift */; };
 		544AA3CE24DAD0EC0050BA79 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544AA3CD24DAD0EC0050BA79 /* MenuView.swift */; };
 		548E257E24D9E1B100FD7934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E257D24D9E1B100FD7934 /* AppDelegate.swift */; };
 		548E258024D9E1B100FD7934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E257F24D9E1B100FD7934 /* SceneDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5438B87C24DC74CD0093193D /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		5438B87E24DC792F0093193D /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		544AA3CD24DAD0EC0050BA79 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		548E257A24D9E1B100FD7934 /* FirstCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548E257D24D9E1B100FD7934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				544AA3CD24DAD0EC0050BA79 /* MenuView.swift */,
 				54F50B0A24DC29010076EBA7 /* Home.swift */,
 				54F50B0C24DC32E70076EBA7 /* HomeView.swift */,
+				5438B87C24DC74CD0093193D /* UpdateList.swift */,
+				5438B87E24DC792F0093193D /* UpdateDetail.swift */,
 				548E257B24D9E1B100FD7934 /* Products */,
 				548E258324D9E1B600FD7934 /* Assets.xcassets */,
 				548E258824D9E1B600FD7934 /* LaunchScreen.storyboard */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				548E257E24D9E1B100FD7934 /* AppDelegate.swift in Sources */,
+				5438B87D24DC74CD0093193D /* UpdateList.swift in Sources */,
 				544AA3CE24DAD0EC0050BA79 /* MenuView.swift in Sources */,
+				5438B87F24DC792F0093193D /* UpdateDetail.swift in Sources */,
 				54F50B0B24DC29010076EBA7 /* Home.swift in Sources */,
 				54F50B0D24DC32E70076EBA7 /* HomeView.swift in Sources */,
 				548E258024D9E1B100FD7934 /* SceneDelegate.swift in Sources */,
