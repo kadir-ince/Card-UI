@@ -14,6 +14,7 @@
 		548E258424D9E1B600FD7934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548E258324D9E1B600FD7934 /* Assets.xcassets */; };
 		548E258724D9E1B600FD7934 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548E258624D9E1B600FD7934 /* Preview Assets.xcassets */; };
 		548E258A24D9E1B600FD7934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548E258824D9E1B600FD7934 /* LaunchScreen.storyboard */; };
+		54F50B0B24DC29010076EBA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F50B0A24DC29010076EBA7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		548E258624D9E1B600FD7934 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		548E258924D9E1B600FD7934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		548E258B24D9E1B600FD7934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F50B0A24DC29010076EBA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				548E258824D9E1B600FD7934 /* LaunchScreen.storyboard */,
 				548E258B24D9E1B600FD7934 /* Info.plist */,
 				548E258524D9E1B600FD7934 /* Preview Content */,
+				54F50B0A24DC29010076EBA7 /* Home.swift */,
 			);
 			path = FirstCourse;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				548E257E24D9E1B100FD7934 /* AppDelegate.swift in Sources */,
 				544AA3CE24DAD0EC0050BA79 /* MenuView.swift in Sources */,
+				54F50B0B24DC29010076EBA7 /* Home.swift in Sources */,
 				548E258024D9E1B100FD7934 /* SceneDelegate.swift in Sources */,
 				548E258224D9E1B100FD7934 /* ContentView.swift in Sources */,
 			);
