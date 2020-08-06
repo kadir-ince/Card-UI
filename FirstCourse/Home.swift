@@ -42,8 +42,12 @@ struct Home: View {
             .edgesIgnoringSafeArea(.all)
 
             MenuView()
+                .background(Color.black.opacity(0.001))
                 .offset(y: showProfile ? 0 : 600)
                 .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
+                .onTapGesture {
+                    self.showProfile.toggle()
+            }
         }
     }
 }
